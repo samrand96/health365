@@ -14,7 +14,7 @@ This project has been created to fulfill the requirements of Health360 Company.
 
 1. Clone this project into your computer and go into it
 ```
-git clone https://github.com/samrand96/health365-backend.git && cd health365-backend
+git clone https://github.com/samrand96/health365.git && cd health365
 ```
 2. Make sure to create a python virtual environment and  install the requirements of this project
 
@@ -33,3 +33,11 @@ source /.venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+3. Create Postgres Database
+4. Edit .env file by adding the connection path of your postgresDB into the DB_URL
+5. After finishing these setup basically you can run the command below to run the application
+```
+python -m uvicorn main:app --reload
+```
+

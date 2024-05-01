@@ -41,7 +41,7 @@ pip install -r requirements.txt
 python -m uvicorn main:app --reload
 ```
 -------
-## System ARchitecture
+## System Architecture
 
 ![ER Diagram](extra/db.png?raw=true "The Entity Relation Diagram of The Database")
 

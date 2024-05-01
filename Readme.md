@@ -43,7 +43,7 @@ python -m uvicorn main:app --reload
 -------
 ## System ARchitecture
 
-(Er Diagram)[extra/db.png]
+![ER Diagram](extra/db.png?raw=true "The Entity Relation Diagram of The Database")
 
-The Entity Relation Diagram of The Database
+
 -------
